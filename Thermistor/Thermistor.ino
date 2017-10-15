@@ -16,8 +16,9 @@ void setup() {
 }
 
 //Print Methode
-void printOut(float Tf, float Tc) {
- Serial.print("Temperature: "); 
+//void
+int printOut(float Tf, float Tc) {
+ Serial.print("Room Temperature: "); 
   Serial.print(Tc);
   Serial.println(" C");   
 }
